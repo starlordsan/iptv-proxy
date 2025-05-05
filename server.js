@@ -4,7 +4,7 @@ const { createProxyMiddleware } = require("http-proxy-middleware");
 const app = express();
 
 // 🚨 Mude o IP e a porta do seu servidor IPTV aqui:
-const targetIPTV = "http://123.123.123.123:8080"; // Troque esse IP pelo do seu servidor IPTV real
+const targetIPTV = "http://51.83.78.186:80"; // Troque esse IP pelo do seu servidor IPTV real
 
 // Definir o proxy
 app.use("/", createProxyMiddleware({
